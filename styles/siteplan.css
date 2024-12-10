@@ -11,25 +11,47 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Sansita" , sans-serif;
-}
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    margin: 40px 0px;
+  }
+
+  h2 {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 30px 0px;
+  }
 
 p {
     font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
   }
+
+.principal {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.third {
+    background-color: var(--third-color);
+}
+
+.background {
+    background-color: var(--background-color);
+}
   
-h2 {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+
   
-h1 {
-    font-family: "Merriweather", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
+
   
